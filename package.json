@@ -1,0 +1,15 @@
+{
+  "name": "postman-to-playwright",
+  "version": "1.0.0",
+  "description": "Converts postman collection to playwright scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api": "npx playwright test --config=api.config.js --project=firefox"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "playwright": "latest"
+  }
+}
