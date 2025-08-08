@@ -4,8 +4,9 @@
   "description": "Converts postman collection to playwright scripts",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:api": "npx playwright test --config=api.config.js --project=firefox"
+    "test:api": "npx playwright test tests/api",
+    "test:web": "npx playwright test tests/web",
+    "test:api:config": "npx playwright test --config=api.config.js --project=firefox"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
