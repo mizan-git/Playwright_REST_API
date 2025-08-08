@@ -5,8 +5,3 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-000_save_new_user_info.spec.js
-001_get_user_details.spec.js
-002_update_user_details.spec.js
-003_delete_user_info.spec.js
-004_get_all_user_data.spec.js
